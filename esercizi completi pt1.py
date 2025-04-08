@@ -20,12 +20,11 @@ while True: #cilco che si ripete all'infinito
 
 
 #esercizio 3
-numeri=[]
+numeri=[1,2,3,4,5] #lista numeri
+numeripotenze=[] #lista numeri
 
-while True:
-    numero=input("inserisci un numero")
+for i in numeri: #calcolo del quadrato per ogni numero della lista
+    print(i**2)
+    numeripotenze.append(i**2) #aggiunta del quadrato alla lista
 
-    numeri.append(int(numero))
-
-for numero in numeri:
-    print
+print(numeripotenze)
