@@ -28,3 +28,33 @@ for i in numeri: #calcolo del quadrato per ogni numero della lista
     numeripotenze.append(i**2) #aggiunta del quadrato alla lista
 
 print(numeripotenze)
+
+
+#esercizio 4
+numeri=[]
+
+while True:
+    num=input("inserisci un numero (o 'fine' per terminare):")
+    
+    if num.lower()=='fine':
+        break
+    
+    numeri.append(int(num))
+
+if len(numeri)==0:
+    print("lista vuota")
+else:
+    max_num=numeri[0] 
+    for num in numeri: #ciclo for per trovare il numero max nella lista
+        if num>max_num:
+            max_num=num
+    
+    count=0
+    i=0
+    while i<len(numeri): #ciclo while per contare gli elementi nella lista
+        count+=1
+        i+=1
+
+#stampa il num max e il num di elementi
+    print("il numero massimo è:", max_num)
+    print("il numero di elementi è:", count)
