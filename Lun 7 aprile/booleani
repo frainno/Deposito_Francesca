@@ -1,0 +1,12 @@
+#valori booleani
+x=False
+y=True
+
+print(5>11)
+print(13<50)
+
+x=5
+y=1
+print(x==y)
+print(x!=y)
+print(x<y and y>x)

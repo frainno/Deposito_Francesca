@@ -1,0 +1,39 @@
+#liste
+
+lista_dati=[1,2,3,4]
+lista_dati2=[1, "mirko", True]
+lista_dati3=[]
+
+print(lista_dati)
+print(lista_dati[2])
+print(lista_dati2[1])
+lista_dati.sort()
+print(lista_dati)
+
+numeri=[1,2,3,4,5]
+nomi=["Alice", "Bob", "Charlie"]
+misto=[1, "due", True, 4.5]
+numeri[2]=10
+numeri[0]=20
+
+print(numeri[0])
+print(numeri[2])
+
+lista_dati.sort
+
+inserimento=int(input("inserisci un numero"))
+lista_dati3.append(inserimento)
+inserimento=int(input("inserisci un numero"))
+lista_dati3.append(inserimento)
+
+numero=10
+if numero > 0:
+    print("il numero è positivo")
+else:
+    print("Blocco Else")
+
+numero=10
+if numero>0:
+    print("il numero è positivo")
+    if numero==100:
+        print("wow")
