@@ -1,0 +1,35 @@
+#esempio basilare
+class Esempio():
+    x=10
+
+#creazione oggetto basilare
+oggetto_1=Esempio()
+oggetto_2=Esempio()
+
+oggetto_1.x=20
+oggetto_2.x=50
+
+print(oggetto_1.x)
+print(oggetto_2.x)
+
+class Penna():
+    altezza=0
+    larghezza=0
+
+    #metodo speciale: costruttore
+    def __init___(self,h,l):
+        self.altezza=h
+        self.larghezza=l
+
+oggetto_penna=Penna(10,7)
+
+print(oggetto_penna.altezza)
+print(oggetto_penna.larghezza)
+
+non_lo_so=Penna(5,6)
+
+print(non_lo_so.altezza)
+print(non_lo_so.larghezza)
+
+
+
