@@ -17,7 +17,7 @@ class Penna():
     larghezza=0
 
     #metodo speciale: costruttore
-    def __init___(self,h,l):
+    def __init__(self,h,l):
         self.altezza=h
         self.larghezza=l
 
