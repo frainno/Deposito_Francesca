@@ -21,7 +21,7 @@ print("elementi dall'indice 5 all'indice 15:")
 print(da_5_a_15)
 
 #estrazione di ogni terzo elemento dell'array
-ogni_terzo=arr_1d[::3] #dagli inizi dell'array fino alla fine, saltando 2 elementi
+ogni_terzo=arr_1d[0:20:3] #dagli inizi dell'array fino alla fine, saltando 2 elementi
 print("ogni terzo elemento:")
 print(ogni_terzo)
 
