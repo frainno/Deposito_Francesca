@@ -10,5 +10,5 @@ while True: #verificare se la condizione è vera
     if ripeti=="sì":
         continue
     else:
-    print("Fine")
-    break 
+        print("Fine")
+        break 
